@@ -1,0 +1,43 @@
+body {
+background-image:url('https://i.pinimg.com/474x/44/70/31/44703196d3f8e23837b1a5c35f49db5e.jpg');
+width:auto;
+height:auto;
+background-repeat:repeat;
+background-color:black;
+color:white;
+font-family:arial, helvetica, sans-serif;
+}
+.btn {
+background-color:transparent;
+color:white;
+width:3.5em;
+height:2em;
+border:2px solid pink;
+font-size:15px;
+}
+.btn:hover {
+background-color:pink;
+color:black;
+border:2px solid pink;
+transition-duration:0.6s;
+}
+@media (max-width:767px) {
+.hidden-mobile {
+display:none; 
+}
+} 
+@media (min-width:763px) {
+.hidden-pc {
+display:none; 
+}
+}
+.imgpc {
+width:15%;
+height:auto;
+text-align:center;
+}
+.imgmobile {
+width:30%;
+height:auto;
+text-align:center;
+}
